@@ -22,7 +22,7 @@ config :travel_itinerary, TravelItineraryWeb.Endpoint,
 
 # In test we don't send emails.
 config :travel_itinerary, TravelItinerary.Mailer, adapter: Swoosh.Adapters.Test
-
+config :travel_itinerary, :output_file_path, "test/support/output.txt"
 # Print only warnings and errors during test
 config :logger, level: :warn
 
