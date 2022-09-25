@@ -17,7 +17,7 @@ defmodule TravelItineraryWeb.Router do
   scope "/", TravelItineraryWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    resources "/file_uploads", PageController, only: [:create, :new]
   end
 
   # Other scopes may use custom stacks.
