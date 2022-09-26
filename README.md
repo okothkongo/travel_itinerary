@@ -26,7 +26,7 @@ Now you can visit [`localhost:4000/file_uploads/new`](http://localhost:4000/file
 ## Upload file
 Visit  [`localhost:4000/file_uploads/new`](http://localhost:4000/file_uploads/new)
 
-Click ``Choose file`` and the ```SUBMIT``` button
+Click ``Choose file``, select the input file from your computer and click the ```SUBMIT``` button. The file will be uploaded, processed by the application, then the output is downloaded, also as a ``.txt`` file
 
 ## Type and format of the files to be uploaded
 The input should be a  file text file  with content in the format below;
@@ -47,7 +47,7 @@ SEGMENT: Train MAD 2023-02-17 17:00 -> SVQ 19:30
 RESERVATION
 SEGMENT: Hotel MAD 2023-02-15 -> 2023-02-17
 ```
-## Expected File Output
+## Expected File Output Format
 
 ```txt
 TRIP to BCN
